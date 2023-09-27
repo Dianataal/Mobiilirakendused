@@ -1,5 +1,6 @@
 import React from "react";
 import { Pressable, Text } from "react-native";
+import {styles} from './styles';
 
 const Button = ({title}) => {
     const handlePress = () => {
@@ -7,7 +8,8 @@ const Button = ({title}) => {
     }
 
     return (
-        <Pressable>
+        <Pressable > 
+            //sinna pressable sisse vaja teha see style asi
             <Text>{title}</Text>
         </Pressable>
     )
