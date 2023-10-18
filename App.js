@@ -1,11 +1,13 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
-import Splash from "./src/screens/auth/Splash";
+import Signup from "./src/screens/auth/Signup";
 
+const WEB_CLIENT_ID = ''
+const IOS_CLIENT_ID = ''
 const App = () => {
   return (
     <SafeAreaView>
-      <Splash/>
+      <Signup/>
     </SafeAreaView>
   );
 };
