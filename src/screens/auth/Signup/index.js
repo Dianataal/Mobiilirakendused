@@ -26,8 +26,11 @@ const Signup = () => {
             <Button style={styles.button} title="Sign In" />
             <Separator text="Or Sign Up with" />
             <GoogleLogin />
+            <Text style={styles.footerText}>Already have an account?
+            <Text style={styles.footerLink}>Sign In</Text>
+            </Text>
         </View>
     )
 }
 
-export default Signup
+export default React.memo(Signup)
